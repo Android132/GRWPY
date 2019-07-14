@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.grwpy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_CONDITIONS" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.grwpy.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.example.grwpy.About_Index" android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.grwpy.Aboutus" android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.grwpy.Computer_department" android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.grwpy.Department_of_information_technology" android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.grwpy.ContactUs" android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.grwpy.Departments_Index" android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.example.grwpy.Dress_design_department" android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.grwpy.Electronics_and_telecom_engineering_department_info" android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.grwpy.Facilities" android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.example.grwpy.Gallery" android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.grwpy.Home" android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.grwpy.Index" android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.grwpy.Instrumentation_department" android:label="@string/app_name" >
+        </activity>
+        
+          <activity
+            android:name="com.example.grwpy.Library_catalogue" android:label="@string/app_name" >
+        </activity>
+        
+        
+     <activity
+            android:name="com.example.grwpy.MainActivity" android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.example.grwpy.Missionandvision" android:label="@string/app_name" >
+        </activity>
+        
+            <activity
+            android:name="com.example.grwpy.SCI_DEPT" android:label="@string/app_name" >
+        </activity>
+          
+         <activity
+            android:name="com.example.grwpy.TandP" android:label="@string/app_name" >
+        </activity>
+        
+         
+           <activity
+            android:name="com.example.grwpy.ElectricalDepartment" android:label="@string/app_name" >
+        </activity>
+        
+             <activity
+            android:name="com.example.grwpy.Office" android:label="@string/app_name" >
+        </activity>
+        
+               <activity
+            android:name="com.example.grwpy.WorkshopDepartment" android:label="@string/app_name" >
+        </activity>
+        
+                 <activity
+            android:name="com.example.grwpy.Credit" android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>
